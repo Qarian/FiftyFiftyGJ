@@ -9,6 +9,7 @@ public class Speech : ScriptableObject
 	public string text;
 	public AudioClip sound;
 	public int numberOfChoices = 0;
+	public bool onLeft = true;
 
 	[Space]
 	[Header("Global Varables Object")]
