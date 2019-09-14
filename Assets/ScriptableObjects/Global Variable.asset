@@ -15,3 +15,5 @@ MonoBehaviour:
   values:
   - name: example
     active: 0
+  - name: 
+    active: 0
