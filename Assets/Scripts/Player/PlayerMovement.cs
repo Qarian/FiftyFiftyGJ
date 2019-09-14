@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
 	private void Update()
 	{
 		inputDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+		inputDir = inputDir.normalized;
 	}
 
 	private void FixedUpdate()
