@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: 'Speech #2'
+  m_Name: Wesz-chanSpeech2
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: ef2f07a77bab9ac488fe2038e5c5a96c, type: 2}
-  text: Ipsulum lorelum 2
+  character: {fileID: 11400000, guid: 36f6aa008f74d7a4584dafc4a4d42941, type: 2}
+  text: "Nie jestem dziewczynk\u0105 \u015Awie\u017Cbowcu-san!"
   sound: {fileID: 0}
   numberOfChoices: 0
-  onLeft: 0
+  onLeft: 1
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
