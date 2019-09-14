@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Smoothness : MonoBehaviour
 {
+	[SerializeField]
+	Transform player = default;
 	[HideInInspector]
 	public List<HoldingDistance> scripts;
 
@@ -26,9 +28,10 @@ public class Smoothness : MonoBehaviour
 			}
 		}
 
-		for (int i = 0; i < lineRenderer.positionCount; i++)
+		lineRenderer.SetPosition(0, player.position);
+		for (int i = 1; i < lineRenderer.positionCount; i++)
 		{
-			lineRenderer.SetPosition(i, scripts[i].transform.position);
+			lineRenderer.SetPosition(i, scripts[i - 1].transform.position);
 		}
 	}
 }
