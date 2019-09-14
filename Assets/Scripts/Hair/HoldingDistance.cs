@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class HoldingDistance : MonoBehaviour
 {
@@ -13,7 +11,7 @@ public class HoldingDistance : MonoBehaviour
 
 		if (distance.magnitude > maxDistance)
 		{
-			distance = Vector3.ClampMagnitude(distance, maxDistance);
+			distance = Vector3.ClampMagnitude(distance, maxDistance - 0.001f);
 			transform.position = target.position + distance;
 		}
 	}
