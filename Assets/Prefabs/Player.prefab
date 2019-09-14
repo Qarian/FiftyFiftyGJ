@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661100413}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09, y: -1.02, z: 0}
+  m_LocalPosition: {x: 0.05, y: -1.161, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 157859893384014433}
@@ -69,7 +69,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2084
+  m_SortingOrder: 1161
   m_Sprite: {fileID: 21300000, guid: 25f4b11167ccb7f4f87a93b14eec286e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -118,7 +118,7 @@ Transform:
   m_GameObject: {fileID: 7918121530722111905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 157859893384014433}
   - {fileID: 7918121532663032492}
@@ -210,7 +210,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.7294121
+        value: 0.54117584
         inSlope: 0.05043217
         outSlope: 0.05043217
         tangentMode: 0
@@ -218,14 +218,23 @@ LineRenderer:
         inWeight: 0.33333334
         outWeight: 1
       - serializedVersion: 3
-        time: 0.16003825
-        value: 0.8705883
-        inSlope: -0.21057367
-        outSlope: -0.21057367
+        time: 0.02010574
+        value: 0.8207977
+        inSlope: 0.12327399
+        outSlope: 0.12327399
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.28248122
+        inWeight: 1
+        outWeight: 0.8918025
+      - serializedVersion: 3
+        time: 0.19932923
+        value: 0.83056796
+        inSlope: -0.018776007
+        outSlope: -0.018776007
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.7277171
+        outWeight: 0.28568175
       - serializedVersion: 3
         time: 1
         value: 0.42352867
@@ -287,6 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b77ae7fa487c3f643a5d0d1c9d84c419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 157859893384014433}
   scripts:
   - {fileID: 0}
   - {fileID: 0}
@@ -312,7 +322,7 @@ MonoBehaviour:
   nodePrefab: {fileID: 5322912988416119930, guid: bbea3de09db78be4c88b2c58d921b839,
     type: 3}
   pow: 0.75
-  firstNodeDistance: 0.3
+  firstNodeDistance: 0.2
   addNode: 105
   removeNode: 107
   points: 8
@@ -345,7 +355,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8170309666661405900}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.2, y: -1.29, z: -0.001}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 661100414}
@@ -386,9 +396,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0.1, y: -2}
+  m_Offset: {x: 0.1, y: -1.5}
   serializedVersion: 2
-  m_Radius: 0.46
+  m_Radius: 0.4
 --- !u!114 &3423278473195516192
 MonoBehaviour:
   m_ObjectHideFlags: 0

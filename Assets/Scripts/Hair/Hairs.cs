@@ -32,7 +32,7 @@ public class Hairs : MonoBehaviour
 	private void Start()
 	{
 		lineRenderer = GetComponent<LineRenderer>();
-		lineRenderer.positionCount = points;
+		lineRenderer.positionCount = points + 1;
 		smoothnessScript = GetComponent<Smoothness>();
 		smoothnessScript.scripts = new List<HoldingDistance>();
 
@@ -40,7 +40,7 @@ public class Hairs : MonoBehaviour
 		nodes.Add(go.transform);
 		HoldingDistance script = go.GetComponent<HoldingDistance>();
 		script.target = player;
-		script.maxDistance = 0.3f;
+		script.maxDistance = firstNodeDistance;
 		smoothnessScript.scripts.Add(script);
 		Attacking.closestNode = go.transform;
 

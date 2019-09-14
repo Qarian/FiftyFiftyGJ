@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstSpeech: {fileID: 11400000, guid: f6743cd4e98cbb347b67f3d3e80103d0, type: 2}
   events: []
+  selectedColor: {r: 0.9056604, g: 0.8220184, b: 0.17515129, a: 1}

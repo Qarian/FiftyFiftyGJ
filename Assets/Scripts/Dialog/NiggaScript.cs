@@ -7,6 +7,10 @@ public class NiggaScript : MonoBehaviour
 	public Speech firstSpeech;
 	public List<UnityEvent> events;
 
+	[Space]
+	[SerializeField]
+	Color selectedColor = default;
+
 	SpriteRenderer sprite;
 
 	private void Start()
@@ -16,8 +20,7 @@ public class NiggaScript : MonoBehaviour
 
 	public void Select()
 	{
-		sprite.color = new Color(220f / 255f, 100f / 255f, 85f / 255f);
-		Debug.Log("qrwetwryiyguhi;");
+		sprite.color = selectedColor;
 	}
 
 	public void Deselect()
