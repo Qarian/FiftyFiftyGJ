@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
   m_Name: "W\u0142\xF3cz\u0119gaSpeech1"
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  text: 
+  character: {fileID: 11400000, guid: 59fdc27c2034f8345b417e02669b0439, type: 2}
+  text: Cos1
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
+  nextSpeech: {fileID: 11400000, guid: cfe9f84bf14009c4295b29ba20918c22, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0
