@@ -11,7 +11,7 @@ public class HoldingDistance : MonoBehaviour
 
 		if (distance.magnitude > maxDistance)
 		{
-			distance = Vector3.ClampMagnitude(distance, maxDistance);
+			distance = Vector3.ClampMagnitude(distance, maxDistance - 0.001f);
 			transform.position = target.position + distance;
 		}
 	}

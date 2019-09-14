@@ -27,6 +27,8 @@ public class Hairs : MonoBehaviour
 
 	List<Transform> nodes = new List<Transform>();
 
+	float timeToStop;
+
 	private void Start()
 	{
 		lineRenderer = GetComponent<LineRenderer>();
@@ -54,6 +56,15 @@ public class Hairs : MonoBehaviour
 			AddNode();
 		if (Input.GetKeyDown(removeNode))
 			RemoveNode();
+
+		if (timeToStop != 0f && timeToStop <= Time.time)
+		{
+			timeToStop = 0f;
+			for (int i = 0; i < nodes.Count; i++)
+			{
+				//nodes[i].GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+			}
+		}
 	}
 
 	void GenerateNode()
@@ -93,6 +104,6 @@ public class Hairs : MonoBehaviour
 		{
 			nodes[i].GetComponent<Rigidbody2D>().AddForce(force * Mathf.Pow(pow, i));
 		}
-		
+		timeToStop = Time.time + 0.35f;
 	}
 }
