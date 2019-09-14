@@ -20,8 +20,8 @@ MonoBehaviour:
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 11400000, guid: e1d3f00b53aace349bf243c6181e7cd7, type: 2}
-  ToDo: -1
+  nextSpeech: {fileID: 11400000, guid: 812fca040e281c845b7d5604c22f1062, type: 2}
+  ToDo: 0
   variableToChange1: 
   newValue1: 0
   nextSpeech1: {fileID: 0}

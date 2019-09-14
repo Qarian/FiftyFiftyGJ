@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Wesz-chanSpeech3
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 36f6aa008f74d7a4584dafc4a4d42941, type: 2}
-  text: "Nie jestem dziewczynk\u0105 \u015Awie\u017Cbowcu-san!"
+  text: "Nawet jak bardzo \u0142adnie poprosz\u0119?"
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
+  nextSpeech: {fileID: 11400000, guid: 6b1d7213850e58f469678db2104e4bda, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0

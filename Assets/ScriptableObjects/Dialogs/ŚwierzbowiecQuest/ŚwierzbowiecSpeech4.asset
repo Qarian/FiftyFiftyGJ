@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: "\u015AwierzbowiecSpeech4"
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 4bab585ed0cae334a8e5e968fb2eb1cd, type: 2}
-  text: "Czemu zawracasz mi g\u0142ow\u0119, dziewczynko?"
+  text: "Co za upierdliwy bachor\u2026 No dobrze. Dla \u015Bwi\u0119tego spokoju dam
+    ci t\u0105 zafajdan\u0105 od\u017Cywk\u0119. Ale nic za darmo. Widzisz, przed
+    przemian\u0105"
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 11400000, guid: e1d3f00b53aace349bf243c6181e7cd7, type: 2}
+  nextSpeech: {fileID: 11400000, guid: 59eec2a3d43edae4e926a088d66d193f, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0

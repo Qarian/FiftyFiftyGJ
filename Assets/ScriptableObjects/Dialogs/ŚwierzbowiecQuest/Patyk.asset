@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: "\u015AwierzbowiecSpeech5"
+  m_Name: Patyk
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 4bab585ed0cae334a8e5e968fb2eb1cd, type: 2}
-  text: "Czemu zawracasz mi g\u0142ow\u0119, dziewczynko?"
+  character: {fileID: 11400000, guid: 87fdecc9b7811604493e8810886651e9, type: 2}
+  text: "Podnios\u0142e\u015B patyk o kszta\u0142cie kuli!"
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 11400000, guid: 45553ba7c0ec1c7468ee9ca685564a1e, type: 2}
-  ToDo: -1
+  nextSpeech: {fileID: 0}
+  ToDo: 0
   variableToChange1: 
   newValue1: 0
   nextSpeech1: {fileID: 0}
