@@ -36,6 +36,8 @@ public class Attacking : MonoBehaviour
 
 		distance = inputPosition - (Vector2)closestNode.position;
 
+		distance = Vector2.ClampMagnitude(distance, distanceToClosestNode * 2f);
+
 		if (distance.magnitude > 0.1f)
 		{
 			/*Debug.Log("Node: " + ((Vector2)closestNode.position - (Vector2)transform.position) +
