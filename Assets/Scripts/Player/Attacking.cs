@@ -3,15 +3,16 @@
 public class Attacking : MonoBehaviour
 {
 	[SerializeField]
-	float cooldown = 3f;
+	Transform closestNode = default;
+	[SerializeField]
+	float distanceToClosestNode = 0.4f;
 
-	public Vector3 force;
+	[SerializeField]
+	float force = 3;
 
 	[Space]
 	[SerializeField]
 	KeyCode keyAttack = KeyCode.Mouse0;
-
-	float lastAttack = 0f;
 
 	Hairs root;
 
@@ -22,10 +23,29 @@ public class Attacking : MonoBehaviour
 
 	void Update()
     {
-		if (Input.GetKeyDown(keyAttack) && Time.time > lastAttack + cooldown)
-		{
-			lastAttack = Time.time;
-			root.Attack();
-		}
+		if (Input.GetKey(keyAttack))
+			Attack();
     }
+
+	void Attack()
+	{
+		Vector2 mouse = Input.mousePosition;
+		Vector2 pos = Camera.main.ScreenToWorldPoint(mouse);
+
+		Vector2 distance = pos - (Vector2)transform.position;
+
+		distance = distance.normalized * distanceToClosestNode;
+
+		Vector2 inputPosition = (Vector2)transform.position + distance;
+
+		distance = inputPosition - (Vector2)closestNode.position;
+
+		if (distance.magnitude > 0.15f)
+		{
+			Debug.Log("Node: " + ((Vector2)closestNode.position - (Vector2)transform.position) +
+			"\nInput: " + (inputPosition - (Vector2)transform.position) +
+			"\nDistance: " + distance.magnitude);
+			root.Attack(distance * force * Time.deltaTime);
+		}
+	}
 }

@@ -3,7 +3,7 @@
 public class PlayerMovement : MonoBehaviour
 {
 	[SerializeField]
-	float speed;
+	float speed = 3;
 
 	Rigidbody2D rb;
 

@@ -1,15 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class Hairs : MonoBehaviour
 {
+	[SerializeField]
+	List<Transform> nodes = default;
+	[SerializeField]
+	[Range(0f, 1f)]
+	float pow = 0.6f;
+
 	LineRenderer lineRenderer;
 
 	int points = 8;
-
-	[SerializeField]
-	List<Transform> nodes;
 
 	private void Start()
 	{
@@ -24,8 +26,12 @@ public class Hairs : MonoBehaviour
 		}
 	}
 
-	public void Attack()
+	public void Attack(Vector3 force)
 	{
-
+		for (int i = 0; i < nodes.Count; i++)
+		{
+			nodes[i].GetComponent<Rigidbody2D>().AddForce(force * Mathf.Pow(pow, i));
+		}
+		
 	}
 }
