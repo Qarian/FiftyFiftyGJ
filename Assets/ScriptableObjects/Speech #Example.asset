@@ -12,48 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
   m_Name: 'Speech #Example'
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  text: 
+  character: {fileID: 11400000, guid: ef2f07a77bab9ac488fe2038e5c5a96c, type: 2}
+  text: Lerelum epsulum
   sound: {fileID: 0}
   numberOfChoices: 0
+  onLeft: 1
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
   nextSpeech: {fileID: 11400000, guid: 1cb3c0b16a907b54388ad03c57caeb09, type: 2}
-  ToDo:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  ToDo: -1
   variableToChange1: 
   newValue1: 0
   nextSpeech1: {fileID: 0}
-  ToDo1:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  ToDo1: -1
   variableToChange2: 
   newValue2: 0
   nextSpeech2: {fileID: 0}
-  ToDo2:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  ToDo2: -1
   variableToChange3: 
   newValue3: 0
   nextSpeech3: {fileID: 0}
-  ToDo3:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  ToDo3: -1
   variableToChange4: 
   newValue4: 0
   nextSpeech4: {fileID: 0}
-  ToDo4:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  ToDo4: -1

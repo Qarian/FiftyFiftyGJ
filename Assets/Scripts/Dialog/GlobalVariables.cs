@@ -8,7 +8,7 @@ public class GlobalVariables : ScriptableObject
 }
 
 [System.Serializable]
-public struct Pair
+public class Pair
 {
 	public string name;
 	public bool active;

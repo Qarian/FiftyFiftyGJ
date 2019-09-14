@@ -298,7 +298,7 @@ MonoBehaviour:
   player: {fileID: 157859893384014433}
   nodePrefab: {fileID: 5322912988416119930, guid: bbea3de09db78be4c88b2c58d921b839,
     type: 3}
-  pow: 0.7
+  pow: 0.75
   firstNodeDistance: 0.3
   addNode: 105
   removeNode: 107
@@ -316,6 +316,7 @@ GameObject:
   - component: {fileID: 7918121531367540754}
   - component: {fileID: 3423278473195516192}
   - component: {fileID: 3423278473195516204}
+  - component: {fileID: 2067211112}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -401,6 +402,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   root: {fileID: 7918121532663032494}
-  distanceToClosestNode: 0.01
-  force: 150
-  keyAttack: 32
+  distanceToClosestNode: 0.3
+  force: 120
+  keyAttack: 323
+--- !u!114 &2067211112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8170309666661405900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0279ffa6533421043b15baa871865926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionKey: 101

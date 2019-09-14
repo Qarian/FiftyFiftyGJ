@@ -5,19 +5,16 @@ using TMPro;
 public class ShowUICharacter : MonoBehaviour
 {
 	[SerializeField]
-	Image UIPortrait;
+	Image UIPortrait = default;
 	[SerializeField]
-	TextMeshProUGUI UICharacterName;
-
-	[Space]
-	public Character character;
+	TextMeshProUGUI UICharacterName = default;
 
 	public void HideCharacter()
 	{
 		gameObject.SetActive(false);
 	}
 
-	public void ShowCharacter()
+	public void ShowCharacter(Character character)
 	{
 		UIPortrait.sprite = character.portrait;
 		UICharacterName.text = character.characterName;
