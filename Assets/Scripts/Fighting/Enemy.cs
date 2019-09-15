@@ -19,8 +19,10 @@ public class Enemy : MonoBehaviour
 
 	private void Update()
 	{
-		Vector3 vecToplayer = player.position - transform.position;
-		if (vecToplayer.magnitude > 10f)
+        
+		Vector2 vecToplayer = player.position - transform.position;
+        Debug.Log(vecToplayer);
+        if (vecToplayer.magnitude > 10f)
 			return;
 
 		Vector3 forward = transform.up;

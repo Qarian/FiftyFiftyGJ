@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Global Variable
   m_EditorClassIdentifier: 
   values:
-  - name: example
-    number: 0
+  - name: kraby
+    number: 15
   - name: 
     number: 0
