@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3788890267573893519}
   - component: {fileID: -7452624234472814763}
   - component: {fileID: 3788890267573893512}
+  - component: {fileID: 7355967126527121051}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Nigga
@@ -126,3 +127,15 @@ MonoBehaviour:
   firstSpeech: {fileID: 11400000, guid: f6743cd4e98cbb347b67f3d3e80103d0, type: 2}
   events: []
   selectedColor: {r: 0.9056604, g: 0.8220184, b: 0.17515129, a: 1}
+--- !u!114 &7355967126527121051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3788890267573893516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98134786a514d44ab77f17e7bf40e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
