@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
 	{
 		inputDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 		inputDir = inputDir.normalized;
+        if (inputDir == Vector2.zero)
+            return;
 		animator.SetFloat("x", inputDir.x);
 		animator.SetFloat("y", inputDir.y);
 	}
