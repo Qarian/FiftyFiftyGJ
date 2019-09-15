@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
+  m_Name: Wesz-chan9
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 36f6aa008f74d7a4584dafc4a4d42941, type: 2}
+  text: "Przynios\u0142am to..."
+  sound: {fileID: 0}
+  numberOfChoices: 0
+  onLeft: 1
+  variablesObject: {fileID: 0}
+  variableToChange: 
+  newValue: 0
+  nextSpeech: {fileID: 11400000, guid: c5f975ff99092004684b4b4c458fc246, type: 2}
+  ToDo: -1
+  variableToChange1: 
+  newValue1: 0
+  nextSpeech1: {fileID: 0}
+  ToDo1: -1
+  variableToChange2: 
+  newValue2: 0
+  nextSpeech2: {fileID: 0}
+  ToDo2: -1
+  variableToChange3: 
+  newValue3: 0
+  nextSpeech3: {fileID: 0}
+  ToDo3: -1
+  variableToChange4: 
+  newValue4: 0
+  nextSpeech4: {fileID: 0}
+  ToDo4: -1

@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: SpeechWesz-chan
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 36f6aa008f74d7a4584dafc4a4d42941, type: 2}
-  text: 
+  text: '!!!'
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
+  nextSpeech: {fileID: 11400000, guid: d1e39cae7401f8446bd93d1bd729922c, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0

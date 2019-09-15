@@ -14,14 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 59fdc27c2034f8345b417e02669b0439, type: 2}
   text: "Je\u017Celi szukasz sposobu na przekroczenie przepa\u015Bci panienko, musisz
-    wiedzie\u0107, \u017Ce nie znajdziesz tu mostu."
+    wiedzie\u0107, \u017Ce nie znajdziesz tu mostu. \u017Beby dotrze\u0107 do Wielkiego
+    Fryzjera nale\u017Cy u\u017Cy\u0107 haka po drugiej stronie."
   sound: {fileID: 0}
   numberOfChoices: 0
-  onLeft: 1
+  onLeft: 0
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 11400000, guid: f739163ed09b232478ba49bcb32f86d3, type: 2}
+  nextSpeech: {fileID: 11400000, guid: cfe9f84bf14009c4295b29ba20918c22, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
     \u017Ce zapu\u015Bcisz w\u0142osy wystarczaj\u0105co d\u0142ugie by go dosi\u0119gn\u0105\u0107."
   sound: {fileID: 0}
   numberOfChoices: 0
-  onLeft: 1
+  onLeft: 0
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
