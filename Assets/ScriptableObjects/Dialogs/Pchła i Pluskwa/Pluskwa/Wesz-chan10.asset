@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: Wesz-chan5
+  m_Name: Wesz-chan10
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 36f6aa008f74d7a4584dafc4a4d42941, type: 2}
   text: "Dzi\u0119ki."
@@ -18,6 +18,8 @@ MonoBehaviour:
   numberOfChoices: 0
   onLeft: 1
   variablesObject: {fileID: 0}
+  variableToCheck: 
+  minValue: 0
   variableToChange: 
   newValue: 0
   nextSpeech: {fileID: 0}

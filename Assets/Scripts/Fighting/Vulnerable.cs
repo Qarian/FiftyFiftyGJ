@@ -10,8 +10,12 @@ public class Vulnerable : MonoBehaviour
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
+		Hairs script = collision.transform.parent.GetComponent<Hairs>();
+		if (script == null)
+			return;
+
+		script.AddNode();
 		OnDeath.Invoke();
 		Destroy(transform.parent.gameObject);
-		collision.transform.parent.GetComponent<Hairs>().AddNode();
 	}
 }

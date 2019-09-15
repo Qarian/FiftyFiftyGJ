@@ -126,9 +126,4 @@ public class Hairs : MonoBehaviour
 	{
 		maxPoints++;
 	}
-
-	public void Kill()
-	{
-
-	}
 }

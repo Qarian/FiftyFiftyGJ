@@ -38,7 +38,27 @@ public class DialogScript : MonoBehaviour
 		if (currentSpeech.numberOfChoices == 0)
 		{
 			if (Input.GetKeyDown(continueKey))
-				NextSpeech(0);
+			{
+				int variableValue = -50;
+				if (currentSpeech.variableToCheck != "")
+				{
+					for (int i = 0; i < currentSpeech.variablesObject.values.Count; i++)
+					{
+						if (currentSpeech.variablesObject.values[i].name == currentSpeech.variableToCheck)
+						{
+							variableValue = currentSpeech.variablesObject.values[i].number;
+							break;
+						}
+					}
+
+					if (variableValue >= currentSpeech.minValue)
+						NextSpeech(1);
+					else
+						NextSpeech(0);
+				}
+				else
+					NextSpeech(0);
+			}
 		}
 		else
 		{
@@ -89,7 +109,7 @@ public class DialogScript : MonoBehaviour
 				for (int i = 0; i < currentSpeech.variablesObject.values.Count; i++)
 				{
 					if (currentSpeech.variablesObject.values[i].name == currentSpeech.variableToChange)
-						currentSpeech.variablesObject.values[i].active = currentSpeech.newValue;
+						currentSpeech.variablesObject.values[i].number = currentSpeech.newValue;
 				}
 			}
 			if (currentSpeech.ToDo >= 0)
@@ -109,7 +129,7 @@ public class DialogScript : MonoBehaviour
 				for (int i = 0; i < currentSpeech.variablesObject.values.Count; i++)
 				{
 					if (currentSpeech.variablesObject.values[i].name == currentSpeech.variableToChange1)
-						currentSpeech.variablesObject.values[i].active = currentSpeech.newValue1;
+						currentSpeech.variablesObject.values[i].number = currentSpeech.newValue1;
 				}
 			}
 			if (currentSpeech.ToDo1 >= 0)
@@ -129,7 +149,7 @@ public class DialogScript : MonoBehaviour
 				for (int i = 0; i < currentSpeech.variablesObject.values.Count; i++)
 				{
 					if (currentSpeech.variablesObject.values[i].name == currentSpeech.variableToChange2)
-						currentSpeech.variablesObject.values[i].active = currentSpeech.newValue2;
+						currentSpeech.variablesObject.values[i].number = currentSpeech.newValue2;
 				}
 			}
 			if (currentSpeech.ToDo2 >= 0)
@@ -149,7 +169,7 @@ public class DialogScript : MonoBehaviour
 				for (int i = 0; i < currentSpeech.variablesObject.values.Count; i++)
 				{
 					if (currentSpeech.variablesObject.values[i].name == currentSpeech.variableToChange3)
-						currentSpeech.variablesObject.values[i].active = currentSpeech.newValue3;
+						currentSpeech.variablesObject.values[i].number = currentSpeech.newValue3;
 				}
 			}
 			if (currentSpeech.ToDo3 >= 0)
@@ -169,7 +189,7 @@ public class DialogScript : MonoBehaviour
 				for (int i = 0; i < currentSpeech.variablesObject.values.Count; i++)
 				{
 					if (currentSpeech.variablesObject.values[i].name == currentSpeech.variableToChange4)
-						currentSpeech.variablesObject.values[i].active = currentSpeech.newValue4;
+						currentSpeech.variablesObject.values[i].number = currentSpeech.newValue4;
 				}
 			}
 			if (currentSpeech.ToDo4 >= 0)

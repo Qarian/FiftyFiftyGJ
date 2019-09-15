@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: "Pch\u0142a6"
+  m_Name: Pluskwa1
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 770dc13f9234584459fe26e6983cf334, type: 2}
   text: "Grrr\u2026"
@@ -18,6 +18,8 @@ MonoBehaviour:
   numberOfChoices: 0
   onLeft: 0
   variablesObject: {fileID: 0}
+  variableToCheck: 
+  minValue: 0
   variableToChange: 
   newValue: 0
   nextSpeech: {fileID: 11400000, guid: f75d3e466a5fbde49a6bea8eb04544a0, type: 2}

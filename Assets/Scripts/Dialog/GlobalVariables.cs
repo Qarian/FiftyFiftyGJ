@@ -11,5 +11,5 @@ public class GlobalVariables : ScriptableObject
 public class Pair
 {
 	public string name;
-	public bool active;
+	public int number;
 }

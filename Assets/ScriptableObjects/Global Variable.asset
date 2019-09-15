@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   values:
   - name: example
-    active: 0
+    number: 0
   - name: 
-    active: 0
+    number: 0
