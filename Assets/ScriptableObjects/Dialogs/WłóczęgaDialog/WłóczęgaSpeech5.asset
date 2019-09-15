@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: "W\u0142\xF3cz\u0119gaSpeech3"
+  m_Name: "W\u0142\xF3cz\u0119gaSpeech5"
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 59fdc27c2034f8345b417e02669b0439, type: 2}
-  text: "Przecie\u017C ca\u0142e te w\u0142osy dooko\u0142a nas nie wzi\u0119\u0142y
-    si\u0119 znik\u0105d. Na pewno kto\u015B w okolicy zebra\u0142 troch\u0119 od\u017Cywki,
-    kt\xF3ra spad\u0142a z deszczem, A \u017Ceby odpowiednio wyd\u0142u\u017Cy\u0107
-    w\u0142osy\u2026 B\u0119dziesz jej troch\u0119 potrzebowa\u0142a."
+  text: "Jednak \u017Ceby odpowiednio wyd\u0142u\u017Cy\u0107 w\u0142osy\u2026 B\u0119dziesz
+    jej troch\u0119 potrzebowa\u0142a."
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1

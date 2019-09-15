@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: "W\u0142\xF3cz\u0119gaSpeech4"
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 59fdc27c2034f8345b417e02669b0439, type: 2}
-  text: "Je\u017Celi szukasz sposobu na przekroczenie przepa\u015Bci panienko, musisz
-    wiedzie\u0107, \u017Ce nie znajdziesz tu mostu. \u017Beby dotrze\u0107 do Wielkiego
-    Fryzjera nale\u017Cy u\u017Cy\u0107 haka po drugiej stronie."
+  text: " \u017Beby dotrze\u0107 do Wielkiego Fryzjera nale\u017Cy u\u017Cy\u0107
+    haka po drugiej stronie."
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1
