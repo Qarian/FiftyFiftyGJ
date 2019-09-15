@@ -4,6 +4,8 @@ public class PlayerMovement : MonoBehaviour
 {
 	[SerializeField]
 	float speed = 3;
+	[SerializeField]
+	Animator animator;
 
 	Rigidbody2D rb;
 
@@ -18,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
 	{
 		inputDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 		inputDir = inputDir.normalized;
+		animator.SetFloat("x", inputDir.x);
+		animator.SetFloat("y", inputDir.y);
 	}
 
 	private void FixedUpdate()
