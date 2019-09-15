@@ -10,20 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: "\u015Awierzbkont2"
+  m_Name: "W\u0142\xF3cz\u0119gaSpeech3"
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 4bab585ed0cae334a8e5e968fb2eb1cd, type: 2}
-  text: "co\u015B, co pomo\u017Ce mi si\u0119 przemieszcza\u0107, niezbyt mnie obchodzi
-    co to b\u0119dzie, ma dzia\u0142a\u0107. Wtedy i tylko wtedy dam ci od\u017Cywk\u0119.
-    A teraz wype\u0142zaj."
+  character: {fileID: 11400000, guid: 59fdc27c2034f8345b417e02669b0439, type: 2}
+  text: "Przecie\u017C ca\u0142e te w\u0142osy dooko\u0142a nas nie wzi\u0119\u0142y
+    si\u0119 znik\u0105d. Na pewno kto\u015B w okolicy zebra\u0142 troch\u0119 od\u017Cywki,
+    kt\xF3ra spad\u0142a z deszczem, A \u017Ceby odpowiednio wyd\u0142u\u017Cy\u0107
+    w\u0142osy\u2026 B\u0119dziesz jej troch\u0119 potrzebowa\u0142a."
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
-  ToDo: 0
+  nextSpeech: {fileID: 11400000, guid: 68a0c03bd29a3d04e859eb40e64419e9, type: 2}
+  ToDo: -1
   variableToChange1: 
   newValue1: 0
   nextSpeech1: {fileID: 0}

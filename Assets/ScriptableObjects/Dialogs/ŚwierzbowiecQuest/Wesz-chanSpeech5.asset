@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wesz-chanSpeech5
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 36f6aa008f74d7a4584dafc4a4d42941, type: 2}
-  text: "Nie jestem dziewczynk\u0105 \u015Awie\u017Cbowcu-san!"
+  text: "Och! Dzi\u0119kuj\u0119!"
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1

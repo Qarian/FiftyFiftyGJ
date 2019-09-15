@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Patyk
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 87fdecc9b7811604493e8810886651e9, type: 2}
-  text: "Podnios\u0142e\u015B patyk o kszta\u0142cie kuli!"
+  text: "Podnios\u0142e\u015B patyk o kszta\u0142cie laski!"
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1

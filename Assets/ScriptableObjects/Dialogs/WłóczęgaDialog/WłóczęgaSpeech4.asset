@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: "\u015Awierzbkont2"
+  m_Name: "W\u0142\xF3cz\u0119gaSpeech4"
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 4bab585ed0cae334a8e5e968fb2eb1cd, type: 2}
-  text: "co\u015B, co pomo\u017Ce mi si\u0119 przemieszcza\u0107, niezbyt mnie obchodzi
-    co to b\u0119dzie, ma dzia\u0142a\u0107. Wtedy i tylko wtedy dam ci od\u017Cywk\u0119.
-    A teraz wype\u0142zaj."
+  character: {fileID: 11400000, guid: 59fdc27c2034f8345b417e02669b0439, type: 2}
+  text: "Je\u017Celi szukasz sposobu na przekroczenie przepa\u015Bci panienko, musisz
+    wiedzie\u0107, \u017Ce nie znajdziesz tu mostu. \u017Beby dotrze\u0107 do Wielkiego
+    Fryzjera nale\u017Cy u\u017Cy\u0107 haka po drugiej stronie."
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
-  ToDo: 0
+  nextSpeech: {fileID: 11400000, guid: cfe9f84bf14009c4295b29ba20918c22, type: 2}
+  ToDo: -1
   variableToChange1: 
   newValue1: 0
   nextSpeech1: {fileID: 0}

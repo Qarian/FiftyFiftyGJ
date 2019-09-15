@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\u015AwierzbowiecSpeech5"
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 4bab585ed0cae334a8e5e968fb2eb1cd, type: 2}
-  text: "Czemu zawracasz mi g\u0142ow\u0119, dziewczynko?"
+  text: Co to za szmelc? Po grzyba mi to?
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1

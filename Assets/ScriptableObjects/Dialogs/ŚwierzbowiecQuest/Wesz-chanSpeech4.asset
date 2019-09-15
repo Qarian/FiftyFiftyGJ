@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Wesz-chanSpeech4
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 36f6aa008f74d7a4584dafc4a4d42941, type: 2}
-  text: "Nie jestem dziewczynk\u0105 \u015Awie\u017Cbowcu-san!"
+  text: "Kij, kt\xF3ry mo\u017Ce ci pom\xF3c chodzi\u0107 \u015Awierzbowcu-san. Jak
+    si\u0119 umawiali\u015Bmy\u2026"
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1

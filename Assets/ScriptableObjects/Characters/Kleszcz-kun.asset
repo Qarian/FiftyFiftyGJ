@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1f1f2b420cac04e9c18f0faf7259de, type: 3}
   m_Name: Kleszcz-kun
   m_EditorClassIdentifier: 
-  portrait: {fileID: 0}
-  characterName: 
+  portrait: {fileID: 21300000, guid: 6db72343a16fde54e93e61aaae1af882, type: 3}
+  characterName: Kleszcz-kun
