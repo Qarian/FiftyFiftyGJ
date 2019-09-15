@@ -21,7 +21,7 @@ MonoBehaviour:
   variableToChange: 
   newValue: 0
   nextSpeech: {fileID: 0}
-  ToDo: -1
+  ToDo: 0
   variableToChange1: 
   newValue1: 0
   nextSpeech1: {fileID: 0}
