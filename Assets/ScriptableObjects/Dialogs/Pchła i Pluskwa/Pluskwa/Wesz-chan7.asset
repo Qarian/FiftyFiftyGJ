@@ -18,9 +18,11 @@ MonoBehaviour:
   numberOfChoices: 0
   onLeft: 1
   variablesObject: {fileID: 0}
+  variableToCheck: 
+  minValue: 0
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 11400000, guid: c36e73789d89a5144b6785d0cce78056, type: 2}
+  nextSpeech: {fileID: 11400000, guid: 062d6fc830aea63498029a8d18dffcf0, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0

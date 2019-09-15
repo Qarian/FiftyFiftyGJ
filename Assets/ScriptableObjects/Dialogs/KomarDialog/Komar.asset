@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: Kleszcz1Speech
+  m_Name: Komar
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: a475fa8e8c6b20c4b96468772d82ab7a, type: 2}
-  text: Elo mordo
+  character: {fileID: 0}
+  text: "Potrzebuj\u0119 krab\xF3w."
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 0
-  variablesObject: {fileID: 0}
-  variableToCheck: 
-  minValue: 0
+  variablesObject: {fileID: 11400000, guid: 36e7a2f8c37ba524b8c119f8596d8547, type: 2}
+  variableToCheck: kraby
+  minValue: 10
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
+  nextSpeech: {fileID: 11400000, guid: be420eb3170d62c4bbca8823d95f0341, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0
-  nextSpeech1: {fileID: 0}
+  nextSpeech1: {fileID: 11400000, guid: d73b11301114079488bc7cd5c2126c57, type: 2}
   ToDo1: -1
   variableToChange2: 
   newValue2: 0
