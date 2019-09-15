@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: SpeechKomar 5
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: bbe29bf429c927d4a839cfe7ad4cce94, type: 2}
-  text: 
+  text: "No i dam Ci od\u017Cywk\u0119."
   sound: {fileID: 0}
   numberOfChoices: 0
-  onLeft: 1
+  onLeft: 0
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
-  ToDo: -1
+  nextSpeech: {fileID: 11400000, guid: 4c635e7d82838c04e80ddd13c007ba02, type: 2}
+  ToDo: 0
   variableToChange1: 
   newValue1: 0
   nextSpeech1: {fileID: 0}

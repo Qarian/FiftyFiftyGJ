@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: SpeechWesz-chan 5
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 36f6aa008f74d7a4584dafc4a4d42941, type: 2}
-  text: 
+  text: "To prawda, \u017Ce kraby maj\u0105 niebiesk\u0105 krew?!"
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
+  nextSpeech: {fileID: 11400000, guid: 745909e0e22264b48acc58801f2ed44a, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0

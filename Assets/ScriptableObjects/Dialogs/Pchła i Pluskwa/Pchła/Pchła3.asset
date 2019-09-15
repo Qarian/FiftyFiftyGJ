@@ -10,18 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: "W\u0142\xF3cz\u0119gaSpeech4"
+  m_Name: "Pch\u0142a3"
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 59fdc27c2034f8345b417e02669b0439, type: 2}
-  text: " \u017Beby dotrze\u0107 do Wielkiego Fryzjera nale\u017Cy u\u017Cy\u0107
-    haka po drugiej stronie."
+  character: {fileID: 11400000, guid: 770dc13f9234584459fe26e6983cf334, type: 2}
+  text: "Niewa\u017Cne co, wszystko kradnie, z\u0142odziejka. A ty te\u017C pewnie
+    chcesz tylko mojej od\u017Cywki, ciebie te\u017C tylko interesuje zysk cudzym
+    kosztem\u2026"
   sound: {fileID: 0}
   numberOfChoices: 0
-  onLeft: 1
+  onLeft: 0
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 11400000, guid: cfe9f84bf14009c4295b29ba20918c22, type: 2}
+  nextSpeech: {fileID: 11400000, guid: 2f82c26e5c34a2e4299bb0fea3c0b2b9, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0

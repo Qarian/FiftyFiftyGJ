@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: SpeechKomar 4
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: bbe29bf429c927d4a839cfe7ad4cce94, type: 2}
-  text: 
+  text: "Tak\u2026 I do tego zadziwiaj\u0105co smaczn\u0105. Dlatego potrzebuj\u0119,
+    \u017Ceby\u015B zebra\u0142a dla mnie troch\u0119 krabiej krwi, a ja zrobi\u0119
+    z niej napitek."
   sound: {fileID: 0}
   numberOfChoices: 0
-  onLeft: 1
+  onLeft: 0
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
+  nextSpeech: {fileID: 11400000, guid: 25baabee1c9683c4bbba752493ded403, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0

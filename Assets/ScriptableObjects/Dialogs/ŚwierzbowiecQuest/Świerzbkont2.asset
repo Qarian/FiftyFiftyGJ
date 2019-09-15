@@ -18,7 +18,7 @@ MonoBehaviour:
     A teraz wype\u0142zaj."
   sound: {fileID: 0}
   numberOfChoices: 0
-  onLeft: 1
+  onLeft: 0
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
