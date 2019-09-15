@@ -22,7 +22,7 @@ MonoBehaviour:
   minValue: 0
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
+  nextSpeech: {fileID: 11400000, guid: f7ab301b9a59db946b2e7fe063daa8c7, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1f1f2b420cac04e9c18f0faf7259de, type: 3}
   m_Name: "Pch\u0142a"
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 61ec872e28451754192f858e9293b047, type: 3}
+  portrait: {fileID: 21300000, guid: e981057d3af09144cb8df0c0e8eb6536, type: 3}
   characterName: "Pch\u0142a"

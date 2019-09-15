@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Kleszcz1Speech
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: a475fa8e8c6b20c4b96468772d82ab7a, type: 2}
-  text: Elo mordo
+  text: "Cze\u015B\u0107 pi\u0119kna, cz\u0119sto tu bywasz?"
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 0
@@ -22,7 +22,7 @@ MonoBehaviour:
   minValue: 0
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
+  nextSpeech: {fileID: 11400000, guid: 54279630a8c65594ba5d772da7df15bb, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Pluskwa5
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 770dc13f9234584459fe26e6983cf334, type: 2}
-  text: "Nie ko\u0144cz! Doskonale wiem co to jest. \u015Awietna robota! Bierz swoj\u0105
-    od\u017Cywk\u0119 i ani si\u0119 wa\u017C dotyka\u0107 innych moich rzeczy\u2026\r\n\n"
+  text: "Doskonale! \u015Awietna robota! Bierz swoj\u0105 od\u017Cywk\u0119 i ani
+    si\u0119 wa\u017C dotyka\u0107 innych moich rzeczy\u2026\r\n\n"
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 0

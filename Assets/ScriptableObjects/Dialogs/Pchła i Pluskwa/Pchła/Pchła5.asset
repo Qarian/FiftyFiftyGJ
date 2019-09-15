@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: "Pch\u0142a5"
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 770dc13f9234584459fe26e6983cf334, type: 2}
-  text: "Nie ko\u0144cz! Doskonale wiem co to jest. \u015Awietna robota! Bierz swoj\u0105
-    od\u017Cywk\u0119 i ani si\u0119 wa\u017C dotyka\u0107 innych moich rzeczy\u2026\r\n\n"
+  text: "Doskonale! \u015Awietna robota! Bierz swoj\u0105 od\u017Cywk\u0119 i ani
+    si\u0119 wa\u017C dotyka\u0107 innych moich rzeczy\u2026\r\n\n"
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 0
   variablesObject: {fileID: 0}
+  variableToCheck: 
+  minValue: 0
   variableToChange: 
   newValue: 0
   nextSpeech: {fileID: 11400000, guid: fb9aa737b5f92b54c8cf2359c54d98ca, type: 2}
