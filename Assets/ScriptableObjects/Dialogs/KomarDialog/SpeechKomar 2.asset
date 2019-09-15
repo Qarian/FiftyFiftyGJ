@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: Wesz-chanSpeech3
+  m_Name: SpeechKomar 2
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 36f6aa008f74d7a4584dafc4a4d42941, type: 2}
-  text: "Skoro tak, to ruszam! Dzi\u0119kuj\u0119 za rad\u0119!"
+  character: {fileID: 11400000, guid: bbe29bf429c927d4a839cfe7ad4cce94, type: 2}
+  text: 
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1
