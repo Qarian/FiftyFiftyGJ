@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: Komar 3
+  m_Name: Wesz 1
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: bbe29bf429c927d4a839cfe7ad4cce94, type: 2}
-  text: "Ale zas\u0142u\u017Cy\u0142a\u015B na nagrod\u0119, oto twoja od\u017Cywka."
+  character: {fileID: 11400000, guid: 36f6aa008f74d7a4584dafc4a4d42941, type: 2}
+  text: "Cze\u015B\u0107..."
   sound: {fileID: 0}
   numberOfChoices: 0
-  onLeft: 0
+  onLeft: 1
   variablesObject: {fileID: 0}
   variableToCheck: 
   minValue: 0
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 11400000, guid: 9fc123474abf84545b062b0a999fa0e7, type: 2}
-  ToDo: 0
+  nextSpeech: {fileID: 11400000, guid: 28e199df8e64cfe4d8c95a780f0071cf, type: 2}
+  ToDo: -1
   variableToChange1: 
   newValue1: 0
   nextSpeech1: {fileID: 0}

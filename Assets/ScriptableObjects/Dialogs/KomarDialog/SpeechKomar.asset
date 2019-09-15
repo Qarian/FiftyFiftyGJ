@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: SpeechKomar
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: bbe29bf429c927d4a839cfe7ad4cce94, type: 2}
-  text: "Kogo ja widz\u0119, to\u017C to Wesz-chan!"
+  text: "Kogo ja widz\u0119, elo Wesz-chan!"
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 0
-  variablesObject: {fileID: 0}
-  variableToChange: 
+  variablesObject: {fileID: 11400000, guid: 36e7a2f8c37ba524b8c119f8596d8547, type: 2}
+  variableToCheck: 
+  minValue: 0
+  variableToChange: kraby
   newValue: 0
   nextSpeech: {fileID: 11400000, guid: 34f7f5e96a7827c4281c778ad1e893bd, type: 2}
   ToDo: -1

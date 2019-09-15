@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
   m_Name: Komar 2
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
+  character: {fileID: 11400000, guid: bbe29bf429c927d4a839cfe7ad4cce94, type: 2}
   text: "Wy\u015Bmienicie! To ju\u017C wszystkie."
   sound: {fileID: 0}
   numberOfChoices: 0
@@ -22,7 +22,7 @@ MonoBehaviour:
   minValue: 0
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 0}
+  nextSpeech: {fileID: 11400000, guid: d0808199938b45b4e925c3a12a9663e5, type: 2}
   ToDo: -1
   variableToChange1: 
   newValue1: 0
