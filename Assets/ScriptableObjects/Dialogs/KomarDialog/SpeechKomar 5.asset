@@ -10,19 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fcaf1f1ce3055409ef65e6af9b0a8c, type: 3}
-  m_Name: "W\u0142\xF3cz\u0119gaSpeech5"
+  m_Name: SpeechKomar 5
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 59fdc27c2034f8345b417e02669b0439, type: 2}
-  text: "Jednak \u017Ceby odpowiednio wyd\u0142u\u017Cy\u0107 w\u0142osy\u2026 B\u0119dziesz
-    jej troch\u0119 potrzebowa\u0142a."
+  character: {fileID: 11400000, guid: bbe29bf429c927d4a839cfe7ad4cce94, type: 2}
+  text: 
   sound: {fileID: 0}
   numberOfChoices: 0
   onLeft: 1
   variablesObject: {fileID: 0}
   variableToChange: 
   newValue: 0
-  nextSpeech: {fileID: 11400000, guid: 68a0c03bd29a3d04e859eb40e64419e9, type: 2}
-  ToDo: 0
+  nextSpeech: {fileID: 0}
+  ToDo: -1
   variableToChange1: 
   newValue1: 0
   nextSpeech1: {fileID: 0}

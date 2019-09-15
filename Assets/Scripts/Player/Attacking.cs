@@ -17,7 +17,7 @@ public class Attacking : MonoBehaviour
 	[SerializeField]
 	KeyCode keyAttack = KeyCode.Mouse0;
 
-	void Update()
+	void FixedUpdate()
     {
 		if (Input.GetKey(keyAttack))
 			Attack();
@@ -38,12 +38,14 @@ public class Attacking : MonoBehaviour
 
 		distance = Vector2.ClampMagnitude(distance, distanceToClosestNode * 2f);
 
-		if (distance.magnitude > 0.1f)
+		if (distance.magnitude > 0.08f)
 		{
-			/*Debug.Log("Node: " + ((Vector2)closestNode.position - (Vector2)transform.position) +
-			"\nInput: " + (inputPosition - (Vector2)transform.position) +
-			"\nDistance: " + distance.magnitude);*/
-			root.Attack(distance * force * Time.deltaTime);
+			root.Attack(distance * force * Time.fixedDeltaTime);
 		}
+	}
+
+	public void GetAttacked()
+	{
+		root.RemoveNode();
 	}
 }

@@ -4,6 +4,8 @@ using UnityEngine;
 public class Hairs : MonoBehaviour
 {
 	[SerializeField]
+	GameObject gameOverCanvas = default;
+	[SerializeField]
 	Transform player = default;
 	[SerializeField]
 	GameObject nodePrefab = default;
@@ -28,11 +30,13 @@ public class Hairs : MonoBehaviour
 	List<Transform> nodes = new List<Transform>();
 
 	float timeToStop;
+	int maxPoints;
 
 	private void Start()
 	{
 		lineRenderer = GetComponent<LineRenderer>();
 		lineRenderer.positionCount = points + 1;
+		maxPoints = points;
 		smoothnessScript = GetComponent<Smoothness>();
 		smoothnessScript.scripts = new List<HoldingDistance>();
 
@@ -86,9 +90,12 @@ public class Hairs : MonoBehaviour
 
 	public void AddNode()
 	{
-		points++;
-		lineRenderer.positionCount = points;
-		GenerateNode();
+		if (points < maxPoints)
+		{
+			points++;
+			lineRenderer.positionCount = points;
+			GenerateNode();
+		}
 	}
 
 	public void RemoveNode()
@@ -96,6 +103,8 @@ public class Hairs : MonoBehaviour
 		points--;
 		lineRenderer.positionCount = points;
 		DestroyNode();
+		if (points <= 1)
+			Death();
 	}
 
 	public void Attack(Vector3 force)
@@ -105,5 +114,21 @@ public class Hairs : MonoBehaviour
 			nodes[i].GetComponent<Rigidbody2D>().AddForce(force * Mathf.Pow(pow, i));
 		}
 		timeToStop = Time.time + 0.35f;
+	}
+
+	public void Death()
+	{
+		gameOverCanvas.SetActive(true);
+		Time.timeScale = 0;
+	}
+
+	public void AddMaxNodes()
+	{
+		maxPoints++;
+	}
+
+	public void Kill()
+	{
+
 	}
 }
